@@ -1,2 +1,2 @@
 # odin-recipes
-A recipe website 
+A recipe website created with only html 
