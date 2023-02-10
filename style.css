@@ -4,7 +4,10 @@
 }
 
 /* styling for index.html */ 
-body{
+.body-1,
+#body-3,
+#body-4
+{
     background: url(images/image-1.jpg);
     background-position: center;
     background-size: cover;
@@ -53,3 +56,46 @@ h1.heading-1 {
 } 
 
 /* styling for jollof rice */ 
+#body-2 {
+    background-image: url(images/jollof\ rice.png);
+}
+.heading-2 {
+    margin-top: 50px;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+}
+.sub-head-1,
+.sub-head-2,
+.sub-head-3 {
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: bold;
+}
+p,
+ul,
+.list-1 {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 530;
+    margin-top: 10px;
+    text-align: center;
+}
+.list-1 {
+    text-align: center;
+    width: 40%;
+    margin-left: 400px;
+    margin-bottom: 20px;
+}
+
+/*styling for fried.html */ 
+#body-3 {
+    background-image: url(images/fried.jpg);
+}
+
+/* styling for yam.html */ 
+#body-4 {
+    background-image: url(images/yam.jpg);
+}
